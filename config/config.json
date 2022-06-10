@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "pactup@pactupmysqlserver",
+    "password": "Rr47akhi",
+    "database": "bookstore_db",
+    "host": "pactupmysqlserver.mysql.database.azure.com",
+    "dialect": "mysql",
+    "ssl": true,
+    "dialectOptions": {
+       "ssl": {
+          "require": true
+       }
+     }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable":"JAWSDB_URL",
+    "dialect": "mysql"
+  }
+}

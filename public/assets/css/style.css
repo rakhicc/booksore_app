@@ -1,0 +1,122 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.table-data {
+  vertical-align: top;
+}
+
+.card-title {
+  padding-bottom: 5px !important;
+  font-size: 18px !important;
+}
+
+.card-content {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.sidenav-trigger {
+  color: white;
+}
+/* Important */
+#cart-items {
+  display: flex;
+  align-items: center;
+}
+/* Important */
+#cart-items p {
+  margin-left: auto;
+}
+/* Important */
+#nav {
+  position: fixed;
+  z-index: 996;
+}
+/* Important */
+#menu-slide-out {
+  padding-top: 10px;
+  z-index: 999;
+}
+
+#buttons {
+  width: 200px;
+}
+/* Important */
+#cart {
+  margin: 0 -10px 0 10px;
+}
+
+#home {
+  margin: 0 7px 0 15px;
+}
+
+.images {
+  filter: brightness(50%);
+}
+
+.categories {
+  padding-top: 10px;
+}
+
+.dropdown-content {
+  width: max-content;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.hidden {
+  display: none;
+}
+
+.notification-badge {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    right: auto;
+    top: -30px;
+    border-radius: 50px; 
+    text-align: center;
+    position: sticky;
+}
+
+#model-button{
+  margin-right: 25px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #home-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #home-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
