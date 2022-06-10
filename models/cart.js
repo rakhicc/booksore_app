@@ -1,5 +1,6 @@
 "use strict";
 
+
 module.exports = function (sequelize, DataTypes) {
   const Cart = sequelize.define(
     "Cart",
