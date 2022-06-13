@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "pactup@pactupmysqlserver",
-    "password": "Rr47akhi",
+    "username": "pactup@pactup-mysqlserver",
+    "password": "pact@1234",
     "database": "bookstore_db",
-    "host": "pactupmysqlserver.mysql.database.azure.com",
+    "host": "pactup-mysqlserver.mysql.database.azure.com",
     "dialect": "mysql",
     "ssl": true,
     "dialectOptions": {
